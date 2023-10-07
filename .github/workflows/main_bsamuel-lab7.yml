@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'bsamuel-lab7'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F9BC69063C8E4DFC9039B7C35333F645 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2AAC6FD90E974FB1BE5A451FD92C3353 }}
           package: .
