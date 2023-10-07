@@ -1,0 +1,104 @@
+html {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h4 {
+    margin: 5px;
+}
+
+dl, ul {
+    font-size: larger;
+    background-color: white;
+    margin: 25px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.p {
+    position: static;
+    margin: 5px;
+    padding: 5px;
+    border: 5px inset black;
+    border-radius: 15px;
+    color:black;
+    background-color: white;
+    text-align: center;
+    
+}
+
+figure {
+    text-align: center;
+}
+
+#me_imageMe {
+    height: 406px;
+    width: 320px;
+    opacity: 100%;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+body {
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+    border: 5px inset black;
+    border-radius: 15px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:visited {
+    color: red;
+}
+
+#contact_rowName-label, 
+#contact_rowNumber-label, 
+#contact_rowEmail-label, 
+#contact_rowRelation-label {
+    float: left;
+    text-decoration: underline;
+}
+
+#contact_rowName-input, 
+#contact_rowNumber-input, 
+#contact_rowEmail-input{
+    padding: 2px;
+    margin: 0px 15px;
+    border: 2px solid;
+}
+
+#contact_rowRelation-input{
+    margin: 0px 15px;
+    width: 178px;
+    border: 2px solid;
+}
+
+#contact_rowSubmit-input {
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
