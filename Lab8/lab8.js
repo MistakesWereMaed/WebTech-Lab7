@@ -5,13 +5,8 @@ function getDataFromForm() {
 }
 
 function runAjax(fname, lname){
-  /*
-  var xhr = new XMLHttpRequest
-  xhr.open('GET', './ajax.php', true)
-  xhr.send(`fname=${fname}, lname=${lname}`)
-  */
   $.get('./ajax.php', {"fname": fname, "lname": lname}, function(){
-    $("#responseString").text("Request succeeded")
+    $("#responseString").text(`Hello ${fname} ${lname}`)
   }, "text")
   
 }
