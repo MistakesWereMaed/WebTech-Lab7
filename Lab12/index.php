@@ -5,6 +5,3 @@
     $message = 'Cookie value: ' . $cookie;
     echo $message
 ?>
-
-<h1>Welcome</h1>
-<p><?= $message ?></p>
